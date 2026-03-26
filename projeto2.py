@@ -10,7 +10,7 @@ try:
     c= float(input('Capital inical: '))
     t = float(input('taxa de juros mensal (em %): '))
     p = int(input('Quantidade de meses: '))
-    m = c* (1+t/100)**p
+    
 
     hoje = datetime.now()
     vencimento = hoje + timedelta(days=30*p)
